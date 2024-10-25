@@ -1,0 +1,38 @@
+/* Selector Universal */
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+/* Selector de ID */
+#miElemento {
+    background-color: #c2616176;
+    color: #711e5a;
+    padding: 20px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Selector de Clase */
+.miClase {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18px;
+    color: #62040a;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+/* Selector de Elemento */
+p {
+    line-height: 1.6;
+    margin-bottom: 1px;
+    font-size: 16px;
+    color: #3a0808;
+}
+
+/* Ejemplo adicional: Selector combinado (opcional) */
+p.miClase {
+    font-weight: bold;
+    color: #333;
+}
